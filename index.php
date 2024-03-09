@@ -1,41 +1,15 @@
 <html>
 <head>
-    Eunice Serrano
+    <h1>EUNICE FAJARDO</h1>
     <p>ADET BSIT</p>    
 </head>
 <body>
-<?php
 
-$x = 10;  
-$y = 6;
+<form action="Math.php" method="post">
+Input1: <input type="text" name="Input1"><br>
+Input2: <input type="text" name="Input2"><br>
+<input type="submit">
+</form> 
 
-echo $x + $y;
- 
-
-$x = 50;
-$x -= 30;
-
-echo $x;
-
-
-$x = 5;
-$x *= 6;
-
-echo $x;
-
-echo $x * $y;
-
-
-$x = 10;
-$x /= 5;
-
-echo $x;
-
-MODULUS
-$x = 15;
-$x %= 4;
-
-echo $x;
-?>   
 </body>
-</html>
+</html> 
